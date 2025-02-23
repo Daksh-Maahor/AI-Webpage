@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<!--
+    Programmer Notes:
+
+    ->  To show definitions, just enclose the word with 'dfn' tag, 
+        and write the definition in title attribute
+    ->  Show definitions of all difficult words (like wikipedia)
+
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daksh Maahor">
+    <meta name="keywords" content="AI, ML, Machine Learning, Artificial Intelligence">
+    
+    <title>Artificial Intelligence and Machine Learning</title>
+
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="res/images/icon.png">
+</head>
+<body>
+    <!-- All content should be inside contents class -->
+    <div class="content">
+        
+        <h1 class="title">Artificial Intelligence and Machine Learning</h1> <!-- Header -->
+
+        <div class="main"> <!-- Body -->
+
+            <table class="toc"> <!-- Table of Contents -->
+                <tr>
+                    <td style="width: 500px;">
+
+                        <!--<h4 style="font-size: 30px; text-align: center;">Contents</h4>-->
+
+                        <ul> <!-- Enter the links here with id = 'toc_link' -->
+                            <li><a href="#intro" id="toc_link">Introduction to AI and ML</a></li>
+                            <li><a href="#goals" id="toc_link">Goals of Artificial Intelligence</a></li>
+                        </ul>
+
+                    </td>
+                </tr>
+            </table> <!-- TOC -->
+
+            <br><br>
+
+            <div id="intro">
+                <h3 class="h_lvl_1">Introduction to AI and ML</h3>
+                <!-- Add paragraphs with id = "dscrp_pg" -->
+
+                <p class="dscrp_pg">
+                    Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to 
+                    the natural intelligence displayed by animals and humans. AI research has been defined 
+                    as the field of study of intelligent agents, which refers to any system that perceives 
+                    its environment and takes actions that maximize its chance of achieving its goals.
+                    The term "artificial intelligence" had previously been used to describe machines that 
+                    mimic and display "human" cognitive skills that are associated with the human mind, 
+                    such as "learning" and "problem-solving". This definition has since been rejected by 
+                    major AI researchers who now describe AI in terms of rationality and acting rationally, 
+                    which does not limit how intelligence can be articulated.<br><br>
+
+                    AI applications include advanced web search engines (e.g., Google), recommendation 
+                    systems (used by YouTube, Amazon and Netflix), understanding human speech (such as Siri 
+                    and Alexa), self-driving cars (e.g., Tesla), automated decision-making and competing at
+                    the highest level in strategic game systems (such as chess and Go). As machines become 
+                    increasingly capable, tasks considered to require "intelligence" are often removed from 
+                    the definition of AI, a phenomenon known as the AI effect. For instance, optical 
+                    character recognition is frequently excluded from things considered to be AI, having 
+                    become a routine technology. <br><br>
+
+                    When someone thinks about Artificial Intelligence, he mostly links it to robots. However, 
+                    an AI researcher would define it in this way. Artificial Intelligence can be considered as 
+                    a collection of algorithms that has the ability to generate results without us having to 
+                    instruct it how to do exactly the same. <br><br>
+
+                    In fact, we can consider both the answers as correct, but in their own ways. Let’s try to 
+                    summarize the definition. Artificial Intelligence is:
+                    <ul class="dscrp_pg">
+                        <li>An intelligent entity created by us (humans).</li>
+                        <li>It is capable of performing and carrying out tasks intelligently and we don’t even have to instruct it to do so.</li>
+                        <li>It is capable of acting and thinking humanely and rationally.</li>
+                        <li>It’s an integral branch of CS/IT that aims to clone human intelligence in robotic machines.</li>
+                    </ul>
+                </p>
+                <br>
+                <div class="images" style="grid-template-columns: 1fr;">
+                    <span class="img">
+                        <img src="res/images/alexa.jpg" alt="Alexa, an example of AI in modern day life">
+                        <p>Alexa, an example of AI in modern day life</p>
+                    </span>
+                </div>
+
+                <p class="dscrp_pg">
+                    Machine learning (ML) is a field of inquiry devoted to understanding and building 
+                    methods that 'learn', that is, methods that leverage data to improve performance 
+                    on some set of tasks. It is seen as a part of artificial intelligence. Machine 
+                    learning algorithms build a model based on sample data, known as training data, in 
+                    order to make predictions or decisions without being explicitly programmed to do so.
+                    Machine learning algorithms are used in a wide variety of applications, such as in 
+                    medicine, email filtering, speech recognition, and computer vision, where it is difficult 
+                    or unfeasible to develop conventional algorithms to perform the needed tasks. <br><br>
+
+                    A subset of machine learning is closely related to computational statistics, which 
+                    focuses on making predictions using computers, but not all machine learning is 
+                    statistical learning. The study of mathematical optimization delivers methods, theory 
+                    and application domains to the field of machine learning. Data mining is a related field 
+                    of study, focusing on exploratory data analysis through unsupervised learning. Some 
+                    implementations of machine learning use data and neural networks in a way that mimics 
+                    the working of a biological brain. In its application across business problems, machine 
+                    learning is also referred to as predictive analytics.
+                </p>
+
+                <div class="images" style="grid-template-columns: 1fr;">
+                    <span class="img">
+                        <img src="res/images/nn.jpg" alt="A neural network">
+                        <p>Neural Network, analogous to a biological brain in Machine Learning</p>
+                    </span>
+                </div>
+            </div>
+
+            <div id="goals">
+                <h3 class="h_lvl_1">Goals of Artificial Intelligence</h3>
+
+                <p class="dscrp_pg">
+                    Early researchers developed algorithms that imitated step-by-step reasoning that 
+                    humans use when they solve puzzles or make logical deductions. By the late 1980s 
+                    and 1990s, AI research had developed methods for dealing with uncertain or incomplete 
+                    information, employing concepts from probability and economics. Many of these algorithms 
+                    proved to be insufficient for solving large reasoning problems because they experienced 
+                    a "combinatorial explosion": they became exponentially slower as the problems grew 
+                    larger. Even humans rarely use the step-by-step deduction that early AI research 
+                    could model. They solve most of their problems using fast, intuitive judgments. <br><br>
+
+                    Machine learning (ML), a fundamental concept of AI research since the field's 
+                    inception, is the study of computer algorithms that improve automatically through 
+                    experience. Unsupervised learning finds patterns in a stream of input. Supervised 
+                    learning requires a human to label the input data first, and comes in two main 
+                    varieties: classification and numerical regression. Classification is used to determine 
+                    what category something belongs in – the program sees a number of examples of things 
+                    from several categories and will learn to classify new inputs. Regression is the 
+                    attempt to produce a function that describes the relationship between inputs and 
+                    outputs and predicts how the outputs should change as the inputs change. Both 
+                    classifiers and regression learners can be viewed as "function approximators" trying 
+                    to learn an unknown (possibly implicit) function; for example, a spam classifier can 
+                    be viewed as learning a function that maps from the text of an email to one of two 
+                    categories, "spam" or "not spam". In reinforcement learning the agent is rewarded 
+                    for good responses and punished for bad ones. The agent classifies its responses to 
+                    form a strategy for operating in its problem space. Transfer learning is when the 
+                    knowledge gained from one problem is applied to a new problem.
+
+                    <div class="images" style="grid-template-columns: 1fr;">
+                        <span class="img">
+                            <img src="res/images/cars.jpg" alt="Self driving cars">
+                            <p>Self Driving Cars, the most famous product of machine learning</p>
+                        </span>
+                    </div>
+                </p>
+            </div>
+
+        </div>
+
+    </div> <!-- content -->
+</body>
+<script type="text/javascript" src="scripts/horizontal_rule.js"></script>
+<script src="scripts/navbar.js"></script>
+</html>
